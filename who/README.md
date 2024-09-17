@@ -1,13 +1,11 @@
 # `who`
 
-This directory contains data on past UPLers.
+This directory contains data on past WQCC members.
 
 It is entirely crowd-sourced (via PRs), so if you want to submit your (__own__) data,
 __please do!__
 
 You should be able to edit this directly on GitHub, as well.
-
-Please send any questions to the coords email (`upl-coords...`).
 
 ## JSON Format
 
@@ -20,10 +18,10 @@ The data should follow the following format:
 ```json
 {
   "name": "your actual name",
-  "username": "your upl username",
-  "start": "semester and year you became a UPL member (e.g. Spring 2016)",
-  "end": "semester and year you left the UPL (i.e. graduated)",
-  "coord": "`true`|`false` --> were you a coord?",
+  "username": "your wqcc username",
+  "start": "semester and year you became a WQCC member (e.g. Spring 2023)",
+  "end": "semester and year you left the WQCC (i.e. graduated)",
+  "coord": "`true`|`false` --> were you a core team member (executive board)?",
   "link": "link to your personal website or whatever!",
   "jobs": "a string of places you've worked (for bragging :D)",
   "misc": "a _short_ chunk of text to add whatever you want"

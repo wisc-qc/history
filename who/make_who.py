@@ -27,8 +27,8 @@ with open('./who.json', 'r') as who_file:
 
 # now open the output file for writing
 with open('./who.markdown', 'w') as markdown_file:
-  table_header  = '| Username | Name | Start | End | Coord? | Jobs | Link | Misc. |\n'
-  table_header += '| ---------|------|-------|-----|--------|------|------|------ |\n'
+  table_header  = '| Username | Name | Start | End | Core Team? | Jobs | Link | Misc. |\n'
+  table_header += '| ---------|------|-------|-----|------------|------|------|------ |\n'
 
   table_header = table_header.strip()
 
@@ -39,7 +39,7 @@ with open('./who.markdown', 'w') as markdown_file:
     # first set the emoji for the coord status
     # emojis are supported assuming this is put on GitHub via GFM
     coord_emoji = None
-    if user.get('coord', False):
+    if user.get('coreteam', False):
       coord_emoji = ':white_check_mark:'
     else:
       coord_emoji = ':x:'

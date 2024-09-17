@@ -1,13 +1,7 @@
 # History
-A history of the [Undergraduate Projects Lab](http://uw-upl.github.io)
+A history of the [Wisconsin Quantum Computing Club](https://wqi.wisc.edu/wqcc/)
 
 ## `who`
 
-See [`who.markdown`](who/who.markdown) for a list of past UPLers.
+See [`who.markdown`](who/who.markdown) for a list of past WQCC members.
 Contributions welcome!
-
-## Sources
-
-Besides PRs and other contributions, much of our content comes from here:
-
-https://web.archive.org/web/20150202141819/http://alyska.net/uplhistory/
